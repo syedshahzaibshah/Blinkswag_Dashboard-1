@@ -1,7 +1,7 @@
 Welcome to Zoho Books Custom Function Documentation
 ====================================================
 
-**Zoho Books** (/lu'make/)  is online accounting software that manages your finances, automates business workflows, and helps you work collectively across departments.
+**Zoho Books** is online accounting software that manages your finances, automates business workflows, and helps you work collectively across departments.
 Visit <https://www.zoho.com/books/>`_
 
 
