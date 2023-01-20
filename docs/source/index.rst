@@ -21,5 +21,6 @@ Contents
 
 .. toctree::
 
-   usage
+   
+   Custom Functions
    api
