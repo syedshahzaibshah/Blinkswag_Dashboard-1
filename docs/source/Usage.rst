@@ -1,4 +1,4 @@
-Custom Functions
+Estimate
 ===============
 
 .. _installation:
