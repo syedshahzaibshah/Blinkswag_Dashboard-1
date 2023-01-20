@@ -1,5 +1,5 @@
-Usage
-=====
+Custom Functions
+===============
 
 .. _installation:
 
