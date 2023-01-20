@@ -3,8 +3,10 @@ Custom Functions
 
 .. _installation:
 
-Installation
-------------
+Module : Estimate 
+Function: convert_estimate_to_so
+Workflow Rule : Convert Estimate To SO
+---------------------------------------
 
 To use Lumache, first install it using pip:
 
