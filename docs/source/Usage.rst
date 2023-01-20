@@ -8,8 +8,8 @@ Custom Functions
 Function: convert_estimate_to_so
 ---------------------------------
 
-* Module : Estimate
-  ------
+*  Module : Estimate
+  --------
 Function: convert_estimate_to_so
 Workflow Rule : Convert Estimate To SO
 
