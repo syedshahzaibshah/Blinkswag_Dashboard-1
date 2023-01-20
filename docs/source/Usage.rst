@@ -12,7 +12,7 @@ Function: convert_estimate_to_so
 
 **Function**: convert_estimate_to_so
 
-**orkflow Rule**: Convert Estimate To SO
+**Workflow Rule**: Convert Estimate To SO
 
 
 
@@ -21,7 +21,7 @@ Description : This code is used to take information from an estimate in Zoho Boo
 It basically is a way to automate the process of converting an estimate to a sales order in Zoho Books, it eliminates the need for manual entry of data and saves time.
 
 * The script starts by getting the "estimate_id", "organization_id" and "customer_id" from the estimate object.
-
+<br />
 * Then, it uses the "zoho.books.getRecordsByID" method to retrieve detailed information about the estimate using the organization ID and estimate ID. It stores this     detailed information in the "estimate_detailed" variable.
 
 * Next, the script checks if the estimate is associated with a project and if so, it gets the project ID and assigns it to the "project_id" variable.
