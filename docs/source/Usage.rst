@@ -18,6 +18,8 @@ It basically is a way to automate the process of converting an estimate to a sal
 
 * The script starts by getting the "estimate_id", "organization_id" and "customer_id" from the estimate object.
 
+* Then, it uses the "zoho.books.getRecordsByID" method to retrieve detailed information about the estimate using the organization ID and estimate ID. It stores this     detailed. 
+
 
 To use Lumache, first install it using pip:
 
