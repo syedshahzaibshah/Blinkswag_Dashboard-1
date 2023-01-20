@@ -22,8 +22,21 @@ It basically is a way to automate the process of converting an estimate to a sal
 
 * The script starts by getting the "estimate_id", "organization_id" and "customer_id" from the estimate object.
 
-* Then, it uses the "zoho.books.getRecordsByID" method to retrieve detailed information about the estimate using the organization ID and estimate ID. It stores this     detailed. 
+* Then, it uses the "zoho.books.getRecordsByID" method to retrieve detailed information about the estimate using the organization ID and estimate ID. It stores this     detailed information in the "estimate_detailed" variable.
 
+* Next, the script checks if the estimate is associated with a project and if so, it gets the project ID and assigns it to the "project_id" variable.
+
+* The script then gets information about the estimate such as whether the discount is applied before tax, contact persons, estimate number, discount amount, discount     type, and salesperson ID.
+
+* The script also retrieves the line items of the estimate and stores it in the "estimate_line_items" variable.
+
+* For each line item, it retrieves the custom fields and updates the label and value of each custom field. It also adds the project ID to the line item.
+
+* Then, the script makes a GET request to the Zoho Books API to retrieve the custom fields of sales orders.
+
+* It then iterates through each custom field of the estimate and for each custom field that is active, has the same data type and label as the sales order custom         field, it adds the custom field to the list of updated custom fields for the sales order.
+
+* Finally, the script creates a new sales order using the updated information such as line items and custom fields.
 
 To use Lumache, first install it using pip:
 
