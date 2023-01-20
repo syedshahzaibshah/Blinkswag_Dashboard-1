@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Zoho Books Custom Function Documention'
+copyright = '2023 BlinkSwag'
+author = 'BlinkSwag'
 
 release = '0.1'
 version = '0.1.0'
