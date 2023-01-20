@@ -1,5 +1,5 @@
 Estimate
-===============
+========
 
 .. _installation:
 
